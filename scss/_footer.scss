@@ -1,0 +1,60 @@
+footer {
+  background-color: $azul;
+}
+
+.box-rodape {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato {
+  padding-top: 60px;
+  height: 100%;
+  width: 60%;
+  border-right: 2px solid #438DE0;
+  padding-bottom: 55px;
+  .dados {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    p {
+      color: white;
+      padding-top: 12px;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+  }
+  a:hover {
+    filter: brightness(110%);
+  }
+}
+
+.direitos {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  img {
+    padding-top: 30px;
+    padding-bottom: 16px;
+  }
+  img, a {
+    width: 260px;
+  }
+  p {
+    text-align: left;
+    width: 361px;
+    color: #96C8FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

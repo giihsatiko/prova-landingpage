@@ -1,0 +1,25 @@
+.box-aside {
+  background-image: url(images/bg.png);
+  background-color: $azul;
+  color: white;
+  height: 623px;
+  display: flex;
+  align-items: center;
+  .textos-aside {
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    p {
+      width: 540px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+    }
+    span {
+      font-weight: 700;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+}
